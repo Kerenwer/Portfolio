@@ -91,7 +91,7 @@
 <div ref="{{ rail }}" style="display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:4px max(32px,calc((100vw - 1200px)/2 + 32px)) 8px;scroll-padding-left:max(32px,calc((100vw - 1200px)/2 + 32px))">
 <sc-for list="{{ outside }}" as="o" hint-placeholder-count="4">
 <div style="flex:none;scroll-snap-align:start;width:min(86vw,540px);background:#fff;border-radius:22px;padding:18px;display:flex;flex-wrap:wrap;gap:14px">
-<div style="flex:1 1 150px;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:12px;padding:4px 4px 4px 16px">
+<div style="flex:1 1 150px;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:12px;padding:4px 4px 4px 0">
 <p style="font-size:clamp(18px,2vw,22px);line-height:1.25;letter-spacing:-.015em;font-weight:400;text-wrap:balance">{{ o.pre }}<b style="font-weight:700">{{ o.key }}</b>{{ o.post }}</p>
 </div>
 <div style="flex:2 1 260px;min-width:0;display:grid;grid-template-columns:1fr 1fr;gap:6px">
